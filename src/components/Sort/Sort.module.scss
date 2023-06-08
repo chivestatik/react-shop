@@ -1,0 +1,38 @@
+.root {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  background: #cecece;
+  border-radius: 10px;
+  width: 430px;
+  padding: 16px 0 16px 0;
+  position: relative;
+
+  p {
+    text-align: center;
+
+    span {
+			color: rgb(121, 121, 121);
+      cursor: pointer;
+    }
+  }
+
+  ul {
+    position: absolute;
+    top: 110%;
+    left: 46%;
+
+    li {
+      padding: 5px;
+      background: #cecece;
+      margin-bottom: 5px;
+      width: 100%;
+      text-align: center;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+  }
+}

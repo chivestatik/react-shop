@@ -1,0 +1,35 @@
+.root {
+  position: relative;
+  width: 315px;
+  height: 387px;
+  background: #d9d9d9;
+  border-radius: 10px;
+  background: linear-gradient(
+    149deg,
+    #e6e6e6 0%,
+    rgb(215, 215, 215) 42%,
+    rgb(230, 230, 230) 72%,
+    rgb(215, 215, 215) 100%
+  );
+  animation: gradient 2s infinite linear; // 10s - скорость анимации
+  background-size: 5000%; // Можно менять и подбирать интенсивность
+
+  div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+		transform: translate(-50%, -50%);
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 80% 0%;
+  }
+  50% {
+    background-position: 20% 100%;
+  }
+  100% {
+    background-position: 80% 0%;
+  }
+}

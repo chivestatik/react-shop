@@ -1,0 +1,23 @@
+.root {
+  padding: 23px 90px;
+  background: #cecece;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+
+  div {
+		cursor: pointer;
+    padding: 9px 0 9px 0;
+    background: #ffffff;
+    width: 200px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #000000;
+    border-radius: 10px;
+  }
+}
